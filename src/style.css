@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Inter&display=swap');
+
+.App {
+  font-family: 'Inter', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1b21;
+  color: white;
+}
+
+.ProfilePhoto > img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ProfileText > h1 {
+  font-size: 2rem;
+}
+.ProfileText > p {
+  line-height: 0px;
+}
+.ProfileText {
+  justify-content: center;
+  text-align: center;
+}
+
+.Texto-1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.Texto-2 {
+  color: #f3bf99;
+  font-weight: 300;
+}
+.Texto-3 {
+  padding-top: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.Email,
+.LinkedIn {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #1a1b21;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 40px;
+  width: 8rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  justify-content: center;
+}
+
+.LinkedIn {
+  background-color: #5093e2;
+  color: white;
+  font-weight: 500;
+}
+
+.ProfileButtons {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LinkedInIcon,
+.EmailIcon {
+  width: 17px;
+  height: 17px;
+  padding: 0 0.5rem;
+}
+.EmailIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.Main {
+  padding: 0 1.5rem;
+}
