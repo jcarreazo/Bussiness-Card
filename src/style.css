@@ -6,6 +6,8 @@
   padding: 0;
   background-color: #1a1b21;
   color: white;
+
+  min-width: 23rem;
 }
 
 .ProfilePhoto > img {
@@ -79,6 +81,9 @@
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
+}
+.ProfileButtons > div {
+  margin: 0rem 0.5rem;
 }
 
 .About,
